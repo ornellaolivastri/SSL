@@ -22,10 +22,10 @@ Para este trabajo utilicé
 - el estándar de compilación fue indicado por una instrucción en la CLI
 
 ## Instrucciones destacadas
-gcc --version -> gcc (GCC) 10.2.0
+gcc --version (respuesta de la terminal: gcc (GCC) 10.2.0)
 
 gcc hello-world.c -o hello -std=c18
 
-./hello -> Hello, World!
+./hello (respuesta de la terminal: Hello, World!)
 
 ./hello > output.txt
