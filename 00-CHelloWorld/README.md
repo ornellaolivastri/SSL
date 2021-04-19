@@ -23,6 +23,9 @@ Para este trabajo utilicé
 
 ## Instrucciones destacadas
 gcc --version -> gcc (GCC) 10.2.0
-gcc hello-world.cpp -o hello -std=c18
+
+gcc hello-world.c -o hello -std=c18
+
 ./hello -> Hello, World!
+
 ./hello > output.txt
