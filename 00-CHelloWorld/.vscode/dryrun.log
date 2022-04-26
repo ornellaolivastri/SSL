@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory 'd:/Usuario/Orne/Documents/Desktop/proyectos/SSL/00-CHelloWorld'
+make: Leaving directory 'd:/Usuario/Orne/Documents/Desktop/proyectos/SSL/00-CHelloWorld'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
