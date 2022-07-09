@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 09 14:24:39 2022
+# Make data base, printed on Sat Jul 09 15:58:56 2022
 
 # Variables
 
@@ -25,13 +25,9 @@ USERPROFILE = C:\Users\Orne
 # environment
 VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
-TMPDIR = C:\Users\Orne\AppData\Local\Temp
-# environment
 LOCALAPPDATA = C:\Users\Orne\AppData\Local
 # environment
-VSCODE_CWD = D:\Usuario\Orne\Documents\Downloads\cosas importantes\Universidad\UTN\2022\SSL 2022\tps_ssl\SSL\01-TablaDeConversion
-# environment
-MINGW_PREFIX = C:/Program Files/Git/mingw64
+VSCODE_CWD = C:\Users\Orne\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -45,31 +41,21 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
-# environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12760_HFIIDNIERFOOVTSX
-# environment
-ORIGINAL_TEMP = C:/Users/Orne/AppData/Local/Temp
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12852_LZGALBQYIKTCLNJB
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
-# environment
-PWD = D:/Usuario/Orne/Documents/Downloads/cosas importantes/Universidad/UTN/2022/SSL 2022/tps_ssl/SSL/01-TablaDeConversion
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
-# environment
-HOSTNAME = DESKTOP-E1MRNQ2
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # automatic
 %F = $(notdir $%)
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\Orne\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
-# environment
-SSH_ASKPASS = C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass
 # environment
 LANG = C
 # default
@@ -83,16 +69,11 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # makefile
 MAKEFLAGS = pqrR
 # environment
-PKG_CONFIG_PATH = C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
-# environment
 ONEDRIVE = C:\Users\Orne\OneDrive
 # makefile
-CURDIR := d:/Usuario/Orne/Documents/Downloads/cosas importantes/Universidad/UTN/2022/SSL 2022/tps_ss 
-l/SSL/01-TablaDeConversion
+CURDIR := d:/Usuario/Orne/Documents/Downloads/cosas importantes/Universidad/UTN/2022/SSL 2022/tps_ssl/SSL/01-TablaDeConversion
 # environment
-MSYSTEM_CARCH = x86_64
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -112,17 +93,13 @@ MAKEFILE_LIST := Makefile
 # environment
 SWIPL = C:\Program Files\swipl\bin
 # environment
-VSCODE_PID = 12760
+VSCODE_PID = 12852
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # makefile (from 'Makefile', line 3)
 OBJECT-FILE-NAME = $(FINAL-FILE-NAME).o
-# environment
-MINGW_CHOST = x86_64-w64-mingw32
 # automatic
 *F = $(notdir $*)
-# environment
-MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
@@ -133,18 +110,12 @@ ONEDRIVECONSUMER = C:\Users\Orne\OneDrive
 MAKE_HOST := Windows32
 # environment
 PROGRAMDATA = C:\ProgramData
-# environment
-INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
-# makefile
-SHELL = C:/Program Files/Git/usr/bin/sh.exe
-# environment
-ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Orne\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Users\Orne\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Orne\AppData\Local\Programs\Python\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\mingw64\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Program Files\swipl\bin;C:\Users\Orne\AppData\Roaming\local\bin;C:\Users\Orne\AppData\Local\Microsoft\WindowsApps;C:\Users\Orne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Orne\AppData\Roaming\npm;C:\MinGW\bin;C:\Users\Orne\.dotnet\tools;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Graphviz\bin;C:\ghcup\bin;C:\Users\Orne\AppData\Local\Markdown Monster
+# default
+SHELL := sh.exe
 # environment
 HOMEPATH = \Users\Orne
 # default
 MAKECMDGOALS := all
-# environment
-SHLVL = 2
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
@@ -158,15 +129,13 @@ MAKE = $(MAKE_COMMAND)
 # makefile (from 'Makefile', line 4)
 ORIGIN-FILE-NAME = $(FINAL-FILE-NAME).c
 # environment
-PATH = C:\Users\Orne\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Orne\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Users\Orne\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Orne\AppData\Local\Programs\Python\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\mingw64\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Program Files\swipl\bin;C:\Users\Orne\AppData\Roaming\local\bin;C:\Users\Orne\AppData\Local\Microsoft\WindowsApps;C:\Users\Orne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Orne\AppData\Roaming\npm;C:\MinGW\bin;C:\Users\Orne\.dotnet\tools;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Graphviz\bin;C:\ghcup\bin;C:\Users\Orne\AppData\Local\Markdown Monster;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+PATH = C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Users\Orne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Orne\AppData\Local\Programs\Python\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\mingw64\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\swipl\bin;C:\Users\Orne\AppData\Roaming\local\bin;C:\Users\Orne\AppData\Local\Microsoft\WindowsApps;C:\Users\Orne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Orne\AppData\Roaming\npm;C:\MinGW\bin;C:\Users\Orne\.dotnet\tools;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Graphviz\bin;C:\ghcup\bin;C:\Users\Orne\AppData\Local\Markdown Monster
 # environment
 COMPUTERNAME = DESKTOP-E1MRNQ2
 # default
 MAKEFILES := 
 # automatic
 ^F = $(notdir $^)
-# environment
-MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
 # environment
 PROMPT = $P$G
 # environment
@@ -178,21 +147,15 @@ LOGONSERVER = \\DESKTOP-E1MRNQ2
 # environment
 USERNAME = Orne
 # environment
-TERM_PROGRAM = mintty
-# environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
 ?F = $(notdir $?)
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-MSYSTEM_CHOST = x86_64-w64-mingw32
-# environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # automatic
 +F = $(notdir $+)
-# environment
-CONFIG_SITE = C:/Program Files/Git/etc/config.site
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -202,13 +165,11 @@ GNUMAKEFLAGS :=
 # environment
 OS = Windows_NT
 # environment
-MSYSTEM_PREFIX = C:/Program Files/Git/mingw64
+__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := run
 # makefile (from 'Makefile', line 1)
 RM = rm
-# environment
-DISPLAY = needs-to-be-defined
 # default
 MAKE_VERSION := 4.3
 # environment
@@ -222,13 +183,9 @@ PUBLIC = C:\Users\Public
 # makefile (from 'Makefile', line 2)
 FINAL-FILE-NAME = tablaDeConversion
 # environment
-_ = C:/Users/Orne/AppData/Local/Programs/Microsoft VS Code/Code.exe
-# environment
 APPDATA = C:\Users\Orne\AppData\Roaming
 # environment
 HOMEDRIVE = C:
-# environment
-LC_CTYPE = es_MX.UTF-8
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
@@ -236,29 +193,17 @@ STACK_ROOT = C:\sr
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-MSYSTEM = MINGW64
-# environment
-HOME = C:\Users\Orne
-# environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
-# environment
-EXEPATH = C:\Program Files\Git
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Orne\AppData\Local\Temp
 # environment
-TERM = xterm
-# environment
 VSCODE_IPC_HOOK = \\.\pipe\c554c8ecdd21874569af0e523cca9925-1.69.0-main-sock
 # default
 .RECIPEPREFIX := 
-# environment
-ORIGINAL_TMP = C:/Users/Orne/AppData/Local/Temp
 # automatic
 <F = $(notdir $<)
-# environment
-PLINK_PROTOCOL = ssh
 # default
 SUFFIXES := 
 # environment
@@ -267,21 +212,15 @@ ALLUSERSPROFILE = C:\ProgramData
 CABAL_DIR = C:\cabal
 # environment
 SESSIONNAME = Console
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 PROCESSOR_REVISION = 3a09
 # environment
-TERM_PROGRAM_VERSION = 3.4.7
-# environment
-PROCESSOR_IDENTI 
-FIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model  
+58 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=133/1024=13%, Rehash=0, Collisions=13/168=8%
+# Load=103/1024=10%, Rehash=0, Collisions=9/138=7%
 
 # Pattern-specific Variable Values
 
@@ -289,7 +228,7 @@ FIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (key d:/Usuario/Orne/Documents/Downloads/cosas importantes/Universidad/UTN/2022/SSL 2022/tps_ssl/SSL/01-TablaDeConversion, mtime 1657387473): 7 files, no impossibilities.
+# . (key d:/Usuario/Orne/Documents/Downloads/cosas importantes/Universidad/UTN/2022/SSL 2022/tps_ssl/SSL/01-TablaDeConversion, mtime 1657392758): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -299,8 +238,7 @@ FIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 
 # Files
 
-# N 
-ot a target:
+# Not a target:
 tablaDeConversion.c:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -339,7 +277,8 @@ all:
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has not been updated.
+#  File has not been update 
+d.
 
 run: tablaDeConversion
 #  Implicit rule search has not been done.
@@ -370,6 +309,6 @@ tablaDeConversion: tablaDeConversion.o
 # strcache performance: lookups = 25 / hit rate = 48%
 # hash-table stats:
 # Load=13/8192=0%, Rehash=0, Collisions=0/25=0%
-# Finished Make data base on Sat Jul 09 14:24:39 2022
+# Finished Make data base on Sat Jul 09 15:58:56 2022
 
  

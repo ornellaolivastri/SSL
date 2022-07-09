@@ -2,22 +2,22 @@
 
 #include <stdio.h> 
 
-double imprimirFahrenheitACelsius();
+void imprimirFahrenheitACelsius();
 
 void imprimirCelsiusAFahrenheit();
 
 int main(void) {
 
-    //imprimirFahrenheitACelsius();
+    imprimirFahrenheitACelsius();
     
-    imprimirCelsiusAFahrenheit();
+    //imprimirCelsiusAFahrenheit();
 
 
 }
 
-double imprimirFahrenheitACelsius(void) {
-    int fahr, celsius;
-        int lower, upper, step;
+void imprimirFahrenheitACelsius(void) {
+    float fahr, celsius;
+        float lower, upper, step;
         
         lower = 0 ;       /* límite inferior de la tabla de temperaturas */
         upper = 300;      /* límite superior */
@@ -26,7 +26,7 @@ double imprimirFahrenheitACelsius(void) {
         
         while (fahr <= upper) {
 
-            celsius = 5 * (fahr - 32) / 9;           // fahr = ( (celsius * 9) / 5 ) + 32
+            celsius = 5.0 * (fahr - 32.0) / 9.0;           // fahr = ( (celsius * 9) / 5 ) + 32
 
             /*
                 Impresion de valores con cierto formato:
@@ -34,7 +34,7 @@ double imprimirFahrenheitACelsius(void) {
                 y un \n salto de linea al final            
             */
             
-            printf("%d\t%d\n", fahr, celsius);
+            printf("%.2f\t%.2f\n", fahr, celsius);
             
             /*
                 El uso de variables en printf se hace mediante el %
