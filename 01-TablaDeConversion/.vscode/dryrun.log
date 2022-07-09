@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'd:/Usuario/Orne/Documents/Downloads/cosas importantes/Universidad/UTN/2022/SSL 2022/tps_ssl/SSL/01-TablaDeConversion'
+gcc -c tablaDeConversion.c -o tablaDeConversion.o -std=c18 
+ 
+gcc tablaDeConversion.o -o tablaDeConversion
+./tablaDeConversion
+make: Leaving directory 'd:/Usuario/Orne/Documents/Downloads/cosas importantes/Universidad/UTN/2022/SSL 2022/tps_ssl/SSL/01-TablaDeConversion'
+ 
