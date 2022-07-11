@@ -1,0 +1,9 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory 'd:/Usuario/Orne/Documents/Downloads/cosas importantes/Universidad/UTN/2022/SSL 2022/tps_ssl/SSL/02-FasesTraduccionYErrores/bibliotecaPropia'
+ 
+gcc -c d:\Usuario\Orne\Documents\Downloads\ importantes\Universidad\UTN\2022\ 2022\tps_ssl\SSL\02-FasesTraduccionYErrores\bibliotecaPropia\studio2.c -o d:\Usuario\Orne\Documents\Downloads\ importantes\Universidad\UTN\2022\ 2022\tps_ssl\SSL\02-FasesTraduccionYErrores\bibliotecaPropia\studioBiblioteca.o
+ 
+ar rcs C:\mingw64\lib\studioBiblioteca.a d:\Usuario\Orne\Documents\Downloads\ importantes\Universidad\UTN\2022\ 2022\tps_ssl\SSL\02-FasesTraduccionYErrores\bibliotecaPropia\studioBiblioteca.o
+ 
+make: Leaving directory 'd:/Usuario/Orne/Documents/Downloads/cosas importantes/Universidad/UTN/2022/SSL 2022/tps_ssl/SSL/02-FasesTraduccionYErrores/bibliotecaPropia'
+ 
