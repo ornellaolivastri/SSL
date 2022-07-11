@@ -5,21 +5,24 @@
 
 ## Credito extra: Bibliotecas
 
-### - que son?
-*Son archivos que contienen declaraciones o prototipos de funciones y definiciones de tipos de dato, o, desarrollos de funciones (codificados ambos en un lenguaje de programación especifico). Son herramientas que permiten la comunicacion entre un proveedor de codigo (quien desarrolló las funciones y los tipos) y un cliente (quien utiliza estas funciones a traves de su declaracion). Por lo tanto, las bibliotecas son la interfaz entre cliente y proveedor.*
+### - ¿Que son?
+*Las **bibliotecas** son colecciones de archivos objeto (con extensión .o, archivos fuente compilado (particularmente ensamblado)) que tienen definiciones de tipos de dato, o, desarrollos de funciones (codificados ambos en un lenguaje de programación especifico). Para poder utilizar estas bibliotecas, se requiere conocer el contrato o interfaz que indica cómo utilizarlas (es decir, los arhivos **headers**).*
 
-### - Se pueden distribuir?
-*Si, simplemente distribuyendo las bibliotecas interfaces y las bibliotecas proveedoras de implementaciones*
+*Los **Headers** son archivos (con extension .h) que contienen declaraciones, firmas, prototipos de funciones; y  son la herramienta que permite la comunicacion entre un proveedor de código (quien desarrolló las funciones y los tipos) y un cliente (quien utiliza estas funciones a traves de su declaración). Por lo tanto, los headers son la interfaz entre un cliente y un proveedor.*
 
-### - Son portables?
-*Si, ya que las interfaces deben permitir la comunicacion entre proveedor y cliente aun ocurriendo camibios en los archivos proveedores (lo cual podria suceder de un sistema operativo a otro)*
+### - ¿Se pueden distribuir?
+*Si, simplemente distribuyendo las bibliotecas con sus interfaces correspondientes.*
 
-### - cuales son sus ventajas y desventajas?
-*La ventaja del uso de bibliotecas es que facilita la exportacion de funciones y tipos desarrollados (presumiblemente testeados), con lo cual acelera el desarrollo de nuevo codigo.*
+### - ¿Son portables?
+*Esto dependerá de hacia dónde se quiera distribuir la biblioteca. Dentro de un mismo grupo de procesadores (con una version similar de asembler) sí se podría considerar portable, pero con versiones diferentes o incluso sistemas operativos diferentes, los archivos ensamblados de las bibliotecas ya no serán interpretados de la misma forma que al momento de su creación.*
 
-*La desventaja?*
+*En general, diremos que las bibliotecas serán portables en la medida que se disponga de los archivos fuente usados para su compilación, para asi poderles hacer las modificaciones necesarias para imitar su funcionamiento base en el nuevo ambiente y recompilar los archivos para obtener finalmente la biblioteca adaptada.*
 
-### - ejemplificar con la biblioteca **stdio**
-*La **biblioteca stdio** es un archivo que contiene los prototipos de las funciones, macros, y tipos para manipular datos de entrada y salida estandar.*
-*Puede distribuirse facilmente ya que es un archivo que requiere 2 bibliotecas (archivos) mas para funcionar.*
-*Es portable ya que funciona para distintos sistemas operativos* 
+### - ¿Cuales son sus ventajas y desventajas?
+*La ventaja del uso de bibliotecas es permite la reutilización de código (lo cual conlleva una mayor eficiencia en el uso del tiempo de desarrollo, acelerando la creación de nuevo código.), que facilita la exportacion de funciones y tipos desarrollados (presumiblemente testeados).*
+
+*La desventaja es que al utilizar bibliotecas, se genera una dependencia hacia el soporte que ese código desarrollado recibe. Si ese soporte deja de existir por una eventual deprecación de esa biblioteca (parcial o completa) se requeriría una actualización del código, pudiendose ocacionar menores o mayores problemas a raíz de esto dependiendo del caso.*
+
+### - Desarrollar la biblioteca **stdio**
+***Desarrollar una biblioteca** significa crear un archivo objeto con codigo desarrollado y ensamblado, que sea accesible para todo el sistema (y no solo para un proyecto particular). Esto significa **instalar esa biblioteca en el directorio lib de nuestro sistema operativo**.* 
+ 
